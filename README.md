@@ -73,19 +73,19 @@ Run `npm run dev` to test the above code.
     * Object that will be returned as application/json in the body of the response
     * String that will be returned as text/html in the body of the response
     * A function that returns html or an object...
-      ```
-        function(){
-          return '<h1>Meow</h1>';
-        }
-      ```
-      or
-      ```
-        function() {
-          return {
-            message: 'Woof'
-          };
-        }
-      ```
+    ```
+      function(){
+        return '<h1>Meow</h1>';
+      }
+    ```
+    or
+    ```
+      function() {
+        return {
+          message: 'Woof'
+        };
+      }
+    ```
 * **token**
   * Required
   * A general rule of thumb is make this a very long, strong password or guid
