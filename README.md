@@ -7,7 +7,7 @@
 [![Code Climate](https://codeclimate.com/github/n8io/express-simple-secure/badges/gpa.svg)](https://codeclimate.com/github/n8io/express-simple-secure)
 [![Test Coverage](https://codeclimate.com/github/n8io/express-simple-secure/badges/coverage.svg)](https://codeclimate.com/github/n8io/express-simple-secure/coverage)
 
-Express middleware that only exposes a route with json or html in response body if the proper token is provided in the query string or header.
+Express middleware that only exposes a route (and response body) when the proper token is provided in the query string or header.
 
 ## v.0.0.1
 
