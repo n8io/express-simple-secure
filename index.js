@@ -1,6 +1,5 @@
 'use strict';
 
-var url = require('url');
 var debug = require('debug')('express-simple-secure:main');
 var safeJsonStringify = require('safe-json-stringify');
 var _ = require('lodash');
