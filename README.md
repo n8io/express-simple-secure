@@ -9,7 +9,8 @@
 
 Express middleware that only exposes a route (and response body) when the proper token is provided in the query string or header.
 
-## v.0.0.1
+## v0.0.3
+[change log](change.md)
 
 Table of Contents
 * [Requirements](#requirements)
