@@ -1,0 +1,45 @@
+{
+  "name": "express-simple-secure",
+  "version": "0.0.1",
+  "description": "",
+  "engines": {
+    "node": ">=4",
+    "express": ">=4"
+  },
+  "main": "app/app.js",
+  "test": {
+    "reporter": "spec"
+  },
+  "scripts": {
+    "start": "node $npm_package_main",
+    "test": "npm run test-dev",
+    "dev": "npm run start",
+    "test-dev": "mocha -R $npm_package_test_reporter test/test.spec.js",
+    "test-prod": "npm run coverage && npm run code-climate",
+    "test-unit": "mocha -R $npm_package_test_reporter test/unit/unit.spec.js",
+    "test-integration": "mocha -R $npm_package_test_reporter test/integration/integration.spec.js",
+    "coverage": "istanbul cover _mocha -- -R $npm_package_test_reporter test/test.spec.js",
+    "code-climate": "codeclimate-test-reporter < coverage/lcov.info",
+    "clean": "rm -rf node_modules/ dist/ coverage/ npm-debug.log"
+  },
+  "author": "Nate Clark <n8@n8io.com>",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.0",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "morgan": "^1.6.1",
+    "ms": "^0.7.1",
+    "safe-json-stringify": "^1.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "codeclimate-test-reporter": "^0.1.1",
+    "http-status": "^0.2.0",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.3",
+    "mocha-istanbul": "^0.2.0",
+    "supertest": "^1.1.0"
+  }
+}
