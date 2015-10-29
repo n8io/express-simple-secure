@@ -72,7 +72,7 @@ Run `npm run dev` to test the above code.
   * Defines a/n:
     * Object that will be returned as application/json in the body of the response
     * String that will be returned as text/html in the body of the response
-    * A function that returns html or object. E.g., `function(){ return '<h1>Meow</h1>'; }` or `function() { return { message: 'Woof' }; }`
+    * A function that returns html or an object. E.g., `function(){ return '<h1>Meow</h1>'; }` or `function() { return { message: 'Woof' }; }`
 * **token**
   * Required
   * A general rule of thumb is make this a very long, strong password or guid
@@ -81,7 +81,7 @@ Run `npm run dev` to test the above code.
   * **If a falsy value is provided, the middleware will be skipped within the Express app**
 * **method**
   * Required
-  * Must be one of the following: `get, post, put, patch, options, delete, head, any`
+  * Valid values are: `get`, `post`, `put`, `patch`, `options`, `delete`, `head`, or `any`
 * **paramName**
   * Optional
   * Default is `key`
@@ -94,7 +94,7 @@ Run `npm run dev` to test the above code.
   * Optional
   * Default is `query`
   * Defines where to check for the _paramName_ defined parameter
-  * Must be one of the following: `query`, `header`, or `any`
+  * Valid values are: `query`, `header`, or `any`
 
 ## Miscellaneous
 1. `npm run dev` # Runs sample app
