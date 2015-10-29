@@ -116,5 +116,5 @@ Run `npm run dev` to test the above code.
 2. `npm run test-unit` # Runs only unit tests
 3. `npm run test-integration` # Runs only self-integration tests
 4. `npm run coverage` # Runs istanbul coverage analysis
-4. `npm run test-prod` # Runs all tests, coverage anyalysis, and uploads results to Code Climate (see below about env variable)
+4. `npm run test-prod` # Runs all tests, coverage anyalysis, and uploads results to Code Climate. Requires the `CODECLIMATE_REPO_TOKEN` environment variable be set.
 5. `npm run clean` # Removes node_modules and other temporary items so you can start the project fresh
