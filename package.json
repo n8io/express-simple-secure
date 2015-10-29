@@ -18,7 +18,7 @@
     "test-prod": "npm run coverage && npm run code-climate",
     "test-unit": "mocha -R $npm_package_test_reporter test/unit/unit.spec.js",
     "test-integration": "mocha -R $npm_package_test_reporter test/integration/integration.spec.js",
-    "coverage": "istanbul cover -x ./app/** -x ./coverage/** _mocha -- -R $npm_package_test_reporter test/test.spec.js",
+    "coverage": "istanbul cover --include-all-sources -x app/** _mocha -- -R $npm_package_test_reporter test/test.spec.js",
     "code-climate": "codeclimate-test-reporter < coverage/lcov.info",
     "clean": "rm -rf node_modules/ dist/ coverage/ npm-debug.log"
   },
