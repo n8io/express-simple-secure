@@ -22,6 +22,11 @@
     "code-climate": "codeclimate-test-reporter < coverage/lcov.info",
     "clean": "rm -rf node_modules/ dist/ coverage/ npm-debug.log"
   },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/n8io/express-simple-secure.git"
@@ -34,7 +39,6 @@
     "express": "^4.13.3",
     "lodash": "^3.10.1",
     "morgan": "^1.6.1",
-    "ms": "^0.7.1",
     "safe-json-stringify": "^1.0.3"
   },
   "devDependencies": {

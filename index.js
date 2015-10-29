@@ -2,7 +2,6 @@
 
 var url = require('url');
 var debug = require('debug')('express-simple-secure:main');
-var ms = require('ms');
 var safeJsonStringify = require('safe-json-stringify');
 var _ = require('lodash');
 
