@@ -20,8 +20,8 @@ Table of Contents
 * [Miscellaneous](#miscellaneous)
 
 ## Requirements
-* Node >= v4.2.1
-* Express >= v4.13.0
+* Node >= v4
+* Express >= v4
 
 ## Installation
 `npm install --save express-simple-secure`
