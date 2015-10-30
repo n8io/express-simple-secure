@@ -1,6 +1,7 @@
 # express-simple-secure
 
 [![Codeship](https://img.shields.io/codeship/0ca723a0-6095-0133-36eb-7258394f756c/master.svg)](https://codeship.com/projects/112229)
+[![Latest stable version](https://img.shields.io/github/release/n8io/express-simple-secure.svg)](https://github.com/n8io/express-simple-secure/releases)
 [![node](https://img.shields.io/badge/node-%3E%3D4.x-lightgrey.svg)](https://github.com/n8io/express-simple-secure/blob/master/package.json)
 [![node](https://img.shields.io/badge/express-%3E%3D4.x-lightgrey.svg)](https://github.com/n8io/express-simple-secure/blob/master/package.json)
 [![dependencies](https://img.shields.io/david/n8io/express-simple-secure.svg)](https://github.com/n8io/express-simple-secure/blob/master/package.json)
