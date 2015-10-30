@@ -2,7 +2,7 @@
 
 [![Codeship](https://img.shields.io/codeship/0ca723a0-6095-0133-36eb-7258394f756c/master.svg)](https://codeship.com/projects/112229)
 [![Latest stable version](https://img.shields.io/github/release/n8io/express-simple-secure.svg)](https://github.com/n8io/express-simple-secure/releases)
-[![node](https://img.shields.io/badge/node-%3E%3D4.x-lightgrey.svg)](https://github.com/n8io/express-simple-secure/blob/master/package.json)
+[![node](https://img.shields.io/badge/node->%3Dv0.12.7-lightgrey.svg)](https://github.com/n8io/express-simple-secure/blob/master/package.json)
 [![node](https://img.shields.io/badge/express-%3E%3D4.x-lightgrey.svg)](https://github.com/n8io/express-simple-secure/blob/master/package.json)
 [![dependencies](https://img.shields.io/david/n8io/express-simple-secure.svg)](https://github.com/n8io/express-simple-secure/blob/master/package.json)
 [![Code Climate](https://codeclimate.com/github/n8io/express-simple-secure/badges/gpa.svg)](https://codeclimate.com/github/n8io/express-simple-secure)
@@ -10,7 +10,7 @@
 
 Express middleware that only exposes a route (and response body) when the proper token is provided in the query string or header.
 
-v0.0.3 [change log](change.md)
+[change log](change.md)
 
 Table of Contents
 * [Requirements](#requirements)
